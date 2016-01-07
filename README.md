@@ -57,24 +57,6 @@ console.log(result2)
 
 ```
 
-## Alternatives
-
-The other best method for achieving similar performance is:
-
-```js
-var a = 42
-setImmediate(function (b) {
-  aa(a, b)
-}, 24)
-
-function sum (a, b) {
-  console.log(a + b)
-}
-```
-
-This is 5-10% slower than remove-field. You decide if remove-field is worth it
-or not.
-
 ## Acknowledgements
 
 remove-field is sponsored by [nearForm](http://nearform.com).
