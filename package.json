@@ -1,0 +1,33 @@
+{
+  "name": "remove-field",
+  "version": "0.0.1",
+  "description": "remove fields from a JS object",
+  "main": "remove.js",
+  "scripts": {
+    "test": "standard && tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/remove-field.git"
+  },
+  "keywords": [
+    "remove",
+    "field",
+    "json",
+    "object"
+  ],
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/remove-field/issues"
+  },
+  "homepage": "https://github.com/mcollina/remove-field#readme",
+  "devDependencies": {
+    "pre-commit": "^1.1.2",
+    "standard": "^5.4.1",
+    "tap": "^5.0.0"
+  },
+  "dependencies": {
+    "traverse": "^0.6.6"
+  }
+}
